@@ -67,6 +67,19 @@ ul {
     max-width: 350px;
 }
 
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #3882f6;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(97, 97, 141);
+}
+
 .gallery {
     padding: 40px 80px;
     text-align: center;
