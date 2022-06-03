@@ -92,3 +92,26 @@ ul {
     border-radius: 10px;
     border: #1f2937 solid 3px;
 }
+
+.testemonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote, .author {
+    width: 500px;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 20px;
+    margin: 75px auto 0 auto;
+}
+
+.author {
+    font-size: 17px;
+    margin:  10px auto 75px auto;
+    text-align: right;
+    font-weight: bold;
+}
