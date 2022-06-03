@@ -146,11 +146,19 @@ button:hover {
     padding: 30px;
     gap: 40px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #ctadesc {
     display: flex;
     flex-direction: column;
+}
+
+#ctabut {
+    border: white solid 2px;
+    flex-shrink: 0;
 }
 
 .call {
