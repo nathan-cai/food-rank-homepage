@@ -63,3 +63,32 @@ ul {
     gap: 10px;
     width: 350px;
 }
+
+.gallery {
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.photos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#gh1 {
+    margin-bottom: 30px;
+}
+
+.gdesc {
+    width: 200px;
+}
+
+.gal {
+    width: 200px;
+    height: 133px;
+    border-radius: 10px;
+    border: #1f2937 solid 3px;
+}
