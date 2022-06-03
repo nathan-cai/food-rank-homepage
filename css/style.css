@@ -4,3 +4,11 @@ body{
     flex-direction: column;
     padding: 0px 90px;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
