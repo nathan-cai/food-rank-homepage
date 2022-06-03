@@ -36,3 +36,30 @@ ul {
     margin-left: auto;
     gap: 30px;
 }
+
+.start {
+    display:flex;
+    flex-direction: row-reverse;
+    padding: 40px 80px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.imright {
+    width: 400px;
+    height: auto;
+    flex-grow: 0;
+    border-radius: 10px;
+    border: white solid 3px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
