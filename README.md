@@ -1,2 +1,2 @@
-# landing-page
+# Landing-Page
 HTML and CSS Landing Page
