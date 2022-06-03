@@ -115,3 +115,27 @@ ul {
     text-align: right;
     font-weight: bold;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+#ctashape {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+#ctadesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    width: 500px;
+}
