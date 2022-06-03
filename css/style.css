@@ -23,13 +23,16 @@ ul {
 .header {
     display: flex;
     background-color: #1f2937;
-    padding: 16px 80px;
+    padding: 16px;
     align-items: center;
+    justify-items: center;
 }
 
 .logo {
-    width: 250px;
+    max-width: 250px;
+    min-width: 150px;
     height: auto;
+    width: auto;
 }
 
 #menu {
@@ -61,7 +64,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 350px;
+    max-width: 350px;
 }
 
 .gallery {
@@ -100,7 +103,7 @@ ul {
 }
 
 .quote, .author {
-    width: 500px;
+    max-width: 500px;
     color: #1f2937;
 }
 
@@ -137,5 +140,5 @@ ul {
 }
 
 .call {
-    width: 500px;
+    max-width: 500px;
 }
