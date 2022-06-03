@@ -142,3 +142,12 @@ ul {
 .call {
     max-width: 500px;
 }
+
+.footer {
+    display: flex;
+    padding: 40px 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
